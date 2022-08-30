@@ -577,7 +577,7 @@ class Update():
             config['voicelengtherror'] = '长度超过限制'
         if self.version < 297:
             print('正在更新config, -> 297 请勿中途退出')
-            config['deletesuccess'] = '哼哼，好了啦！'
+            config['deletesuccess'] = '哼哼，好了啦'
             config['deletetemperror'] = '删除失败，该消息已不在缓存内'
             config['deletefinderror'] = '删除失败，词库中已无法找到该答案'
         if self.version < 298:
